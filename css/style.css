@@ -46,7 +46,7 @@ a {
 }
 
 .navbar__links {
-  width: 50%;
+  width: fit-content;
   list-style: none;
   padding: 0;
   margin-left: auto;
@@ -296,9 +296,6 @@ a {
 
 /*--/ Tables /--*/
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .navbar__links {
-    width: 70%;
-  }
   .section {
     width: 75%;
   }
@@ -314,9 +311,6 @@ a {
 
 /*--/ Notebook /--*/
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
-  .navbar__links {
-    width: 60%;
-  }
   .section {
     width: 70%;
   }
@@ -330,6 +324,35 @@ a {
   }
 }
 
-/*--/ Full HD Desktop /--*/
-@media screen and (max-width: 1440px) {
+/*--/ Notebook - Desktop /--*/
+@media screen and (min-width: 1440px) and (max-width: 1600px) {
+  .section {
+    width: 70%;
+  }
+  .section__title,
+  .section__last-time {
+    width: 70%;
+  }
+
+  .section__img {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  
+  .navbar__logo > img{
+    height: 120px;
+  }
+  .section {
+    width: 50%;
+  }
+  .section__title,
+  .section__last-time {
+    width: 50%;
+  }
+
+  .section__img {
+    width: 60%;
+  }
 }
