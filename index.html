@@ -5,423 +5,511 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <title>
-      Una cinta de VHS, una IA y ocho segundos de audio. Eso es todo lo que
-      necesitó una mujer para recuperar su voz perdida
+      El Ejército Argentino renueva su equipamiento: cómo son los visores
+      nocturnos que utilizarán las tropas de operaciones especiales
     </title>
   </head>
   <body>
     <header class="header">
-      <nav class="navbar">
-        <div class="navbar__logo">
+      <div class="header__btn-menu">
+        <button>
+          <svg
+            width="20"
+            height="14"
+            viewBox="0 0 20 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 13.3333H20V11.1111H0V13.3333ZM0 7.77778H20V5.55556H0V7.77778ZM0 0V2.22222H20V0H0Z"
+              fill="black"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div class="header__logo">
+        <img
+          width="70"
+          height="70"
+          src="./svg/logo_canal_26.svg"
+          alt="Logo Canal 26"
+        />
+      </div>
+      <div class="header__btn-en-vivo">
+        <a
+          aria-label="Canal 26 en vivo"
+          class="header__link-vivo"
+          href="https://www.canal26.com/canal26-en-vivo/"
+          target="_self"
+        >
           <img
-            src="./svg/logo_xataka.svg"
-            width="200"
-            height="150"
-            alt="Logo de Xataka"
+            src="https://www.canal26.com/pf/resources/images/live_widget_animation-optimized.gif?d=103"
+            class="live-widget-animation"
+            width="24"
+            height="18"
+            alt="live widget animation"
+            aria-label="live widget animation"
           />
-          <button class="navbar__menu-toggle">☰</button>
-        </div>
-        <ul class="navbar__links">
-          <li><a href="#">Análisis</a></li>
-          <li><a href="#">Selección</a></li>
-          <li><a href="#">Móviles</a></li>
-          <li><a href="#">Ciencia</a></li>
-          <li><a href="#">Movilidad</a></li>
-          <li><a href="#">Magnet</a></li>
-        </ul>
-        <div class="navbar__links-mobile">
-          <ul>
-            <li><a href="#">Análisis</a></li>
-            <li><a href="#">Selección</a></li>
-            <li><a href="#">Móviles</a></li>
-            <li><a href="#">Ciencia</a></li>
-            <li><a href="#">Movilidad</a></li>
-            <li><a href="#">Magnet</a></li>
-          </ul>
-        </div>
-      </nav>
+          <span class="header__btn-en-vivo-title-mobile"> VIVO </span>
+          <span class="header__btn-en-vivo-title"> Canal 26 en vivo </span>
+        </a>
+      </div>
     </header>
-    <main class="main">
-      <section class="section">
-        <div class="section__title">
-          <h1 class="title">
-            Una cinta de VHS, una IA y ocho segundos de audio. Eso es todo lo
-            que necesitó una mujer para recuperar su voz perdida
-          </h1>
-          <h3 class="subtitle">
-            Las herramientas de IA son ahora capaces de ayudar a clonar y
-            recuperar las voces de quienes las perdieron por alguna enfermedad
-          </h3>
-          <hr />
-          <div class="section__links-social-networks">
-            <a href=""> 💬 2 comentarios </a>
-            <a
-              href="https://www.facebook.com/sharer/sharer.php?u=https://www.xataka.com/robotica-e-ia/cinta-vhs-ia-ocho-segundos-audio-eso-todo-que-necesito-mujer-para-recuperar-su-voz-perdida%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb"
-            >
-              <svg
-                fill="#fafafa"
-                width="24px"
-                height="24px"
-                viewBox="-3.2 -3.2 38.40 38.40"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#fafafa"
+    <nav class="navbar">
+      <ul class="navbar__links">
+        <li><a href="#">Lo último</a></li>
+        <li><a href="#">Planeta</a></li>
+        <li><a href="#">Economía</a></li>
+        <li><a href="#">Internacionales</a></li>
+        <li><a href="#">Turismo</a></li>
+        <li><a href="#">Tecnología</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <main class="main">
+        <section class="section">
+          <div class="breadcrumb">
+            <a href="#">Inicio</a>
+            <span>›</span>
+            <a href="#">General</a>
+          </div>
+          <article class="article">
+            <h1 class="title__h1">
+              <span class="title__h1-red">
+                El Ejército Argentino renueva su equipamiento:
+              </span>
+              cómo son los visores nocturnos que utilizarán las tropas de
+              operaciones especiales
+            </h1>
+            <h2 class="subtitle__h2">
+              La adquisición representa un salto de calidad para reemplazar a
+              los antiguos AN/PVS-7. El flamante modelo incluye un iluminador
+              infrarrojo integrado, además de un intensificador de imagen y
+              doble tubo.
+            </h2>
+            <div class="article__author">
+              <img
+                width="70"
+                height="70"
+                src="./svg/logo_canal_26.svg"
+                alt="Logo Canal 26"
+              />
+              <div class="article__author__description">
+                <span>Por <a href="#">Canal 26</a></span>
+                <span>Lunes, 29 de Septiembre de 2025, 18:02</span>
+              </div>
+            </div>
+            <div class="article__media">
+              <img
+                width="350px"
+                height="213.31"
+                src="./img/article_image_1.webp"
+                alt="Visores binoculares"
+              />
+              <span
+                >Los visores nocturnos binoculares Theon NYX que compró el
+                Ejército Argentino. Foto: zona-militar.com</span
               >
-                <g
-                  id="SVGRepo_bgCarrier"
-                  stroke-width="0"
-                  transform="translate(0,0), scale(1)"
-                >
-                  <rect
-                    x="-3.2"
-                    y="-3.2"
-                    width="38.40"
-                    height="38.40"
-                    rx="3.84"
-                    fill="#3f62a9"
-                    strokewidth="0"
-                  ></rect>
-                </g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <path
-                    d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"
-                  ></path>
-                </g>
-              </svg>
-            </a>
-            <a
-              href="https://x.com/intent/post?url=https%3A%2F%2Fwww.xataka.com%2Fp%2F323439%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb&text=Una%20cinta%20de%20VHS%2C%20una%20IA%20y%20ocho%20segundos%20de%20audio.%20Eso%20es%20todo%20lo%20que%20necesit%C3%B3%20una%20mujer%20para%20recuperar%20su%20voz%20perdida%20&via=xataka"
-            >
+            </div>
+            <p class="paragraph">
+              El
+              <a
+                class="paragraph__link"
+                target="_blank"
+                href="https://www.canal26.com/general/2025/09/23/programa-f-16-la-fuerza-aerea-argentina-se-moderniza-con-un-importante-sistema-integral-de-seguridad-y-defensa/"
+              >
+                Ejército Argentino
+              </a>
+              compró
+              <strong>37 visores nocturnos binoculares Theon NYX.</strong> La
+              adquisición ocurre tras haber completado un
+              <strong>proceso licitatorio</strong> nacional, donde se evaluaron
+              diversas opciones, entre las cuales triunfó el sistema de origen
+              griego.
+            </p>
+            <p class="paragraph">
+              Según la información que se desprende del portal de compras del
+              Estado, la licitación se adjudicó a la compañía local
+              <strong>ATEC AERONAUTICS & TECHNOLOGIES S.A.</strong>, la cual
+              deberá proveer 37 visores nocturnos binoculares Theon NYX.
+            </p>
+            <div class="article__media">
+              <img
+                width="350px"
+                height="213.31"
+                he
+                src="./img/article_image_2.webp"
+                alt="Visores binoculares"
+              />
+              <span
+                >Los visores nocturnos binoculares Theon NYX que compró el
+                Ejército Argentino. Foto: zona-militar.com</span
+              >
+            </div>
+            <p>
+              El acuerdo es por un total de <strong>U$D 671.550,00</strong>, lo
+              que da un costo unitario de <strong>U$D 18.150,00</strong>. El
+              documento contractual cuenta con una opción de ampliación por
+              <strong>U$D 134.310,00</strong>, la cual todavía no fue
+              confirmada.
+            </p>
+            <h1 class="title__h1">
+              Cómo son los nuevos binoculares del Ejército Argentino
+            </h1>
+            <p class="paragraph">
+              El visor nocturno NYX es del tipo <strong>binocular</strong>, y
+              cuenta con <strong>intensificador de imagen y doble tubo</strong>.
+              También, puede usarse en <strong>casco, cabeza</strong> o en la
+              <strong>mano</strong>, según el fabricante Theon NYX.
+            </p>
+            <p class="paragraph">
+              Es importante destacar que del proceso licitatorio del Ejército
+              Argentino participaron diversos oferentes, los cuales pusieron a
+              disposición los siguientes modelos de visores nocturnos:
+              <strong>NVG L3 Harris BNVD-1531</strong> y
+              <strong>UNVG-51</strong>, <strong>MS/BNVD-31A</strong>, entre
+              otros.
+            </p>
+            <div class="article__media">
+              <img
+                width="350px"
+                height="213.31"
+                src="./img/article_image_3.webp"
+                alt="Visores binoculares"
+              />
+              <span
+                >Los visores nocturnos binoculares Theon NYX que compró el
+                Ejército Argentino. Foto: zona-militar.com</span
+              >
+            </div>
+            <p class="paragraph">
+              La incorporación de los visores Theon NYX representará un
+              <a
+                class="paragraph__link"
+                target="_blank"
+                href="https://www.canal26.com/general/2025/09/17/presupuesto-2026-la-armada-argentina-se-renueva-con-la-incorporacion-de-helicopteros-aw109m/"
+              >
+                salto de capacidades
+              </a>
+              para las tropas de operaciones especiales, que siguen los antiguos
+              <strong>AN/PVS-7</strong>, modelo que quedó
+              <strong>desactualizado</strong> en cuanto a rendimientos y
+              características para unidades de operaciones especiales.
+            </p>
+            <h3 class="subtitle__h3">
+              La reseña sobre los visores nocturnos binoculares
+            </h3>
+            <p class="paragraph">
+              <em>
+                “Ofrece una mejor percepción de la profundidad que los sistemas
+                de un solo tubo, lo que facilita la estimación de distancias y
+                el movimiento relativo, mejorando considerablemente la capacidad
+                para realizar tareas como conducir”
+              </em>
+              detalla la empresa.
+            </p>
+            <p class="paragraph">
+              Y precisa al respecto:
+              <em>
+                “Para cambios momentáneos de configuración, el usuario puede
+                plegar cada monocular por separado. Con ambos monoculares
+                plegados, el sistema se guarda siguiendo el contorno del casco,
+                reduciendo así su silueta".
+              </em>
+            </p>
+          </article>
+        </section>
+      </main>
+      <aside class="aside">
+        <h1 class="title__h1">Más leídas</h1>
+        <div class="aside__content">
+          <img width="150" height="84" src="./img/aside_image_1.webp" alt="" />
+          <a class="aside__link" href="#">
+            <span class="aside__link-red">
+              Vuelve el servicio de tren más esperado en Buenos Aires:
+            </span>
+            te lleva a los mejores destinos para escapadas
+          </a>
+        </div>
+        <div class="aside__content">
+          <img width="150" height="84" src="./img/aside_image_2.webp" alt="" />
+          <a class="aside__link" href="#">
+            <span class="aside__link-red">
+              Una histórica calle de CABA cambia para siempre:
+            </span>
+            el barrio porteño que se transforma por completo
+          </a>
+        </div>
+        <div class="aside__content">
+          <img width="150" height="84" src="./img/aside_image_3.webp" alt="" />
+          <a class="aside__link" href="#">
+            <span class="aside__link-red">
+              PAMI abrió la inscripción a sus cursos gratuitos 2025 :
+            </span>
+            cómo anotarse y hasta cuándo hay tiempoabre
+          </a>
+        </div>
+        <div class="aside__content">
+          <img width="150" height="84" src="./img/aside_image_4.webp" alt="" />
+          <a class="aside__link" href="#">
+            <span class="aside__link-red">
+              Igual de barato que Temu, pero en Argentina:
+            </span>
+            el megabazar que ofrece artículos de decoración a precios
+            inigualables
+          </a>
+        </div>
+        <div class="aside__content">
+          <img width="150" height="84" src="./img/aside_image_5.webp" alt="" />
+          <a class="aside__link" href="#">
+            <span class="aside__link-red">CABA: </span> un fallo judicial
+            determinó que el PAMI deberá volver a entregar medicamentos gratis a
+            los jubilados
+          </a>
+        </div>
+      </aside>
+    </div>
+    <footer class="footer" role="contentinfo" aria-label="Pie de página">
+      <div class="footer__logo">
+        <img
+          src="./svg/logo_white_canal_26.svg"
+          width="70"
+          height="70"
+          alt="Logo Canal 26"
+        />
+      </div>
+      <div class="footer__links">
+        <h4>Acerca de nosotros</h4>
+        <ul class="footer__links__list">
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Nuestro equipo</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Contacto</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Términos y Condiciones</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Política de privacidad</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Mediakit</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Programación</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Redactores</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Empleos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Medios</h4>
+        <ul class="footer__links__list">
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Canal 26</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Lanina TV</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Tierra Mia</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Telemax</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="footer__link">Musictop</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__social-network">
+        <ul class="footer__social-network__list">
+          <li class="footer__social-network__item">
+            <a href="#" class="footer__social-network__link">
               <svg
+                class="facebook-icon"
+                width="90"
+                height="90"
+                viewBox="0 0 90 90"
+                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                fill="currentColor"
-                class="bi bi-twitter-x"
-                viewBox="0 0 16 16"
               >
                 <path
-                  d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
-                />
+                  d="M44.9998 0.666748C33.2419 0.666748 21.9655 5.33757 13.6514 13.6517C5.33732 21.9658 0.666504 33.2421 0.666504 45.0001C0.666504 56.758 5.33732 68.0344 13.6514 76.3485C21.9655 84.6626 33.2419 89.3334 44.9998 89.3334C56.7578 89.3334 68.0341 84.6626 76.3482 76.3485C84.6623 68.0344 89.3332 56.758 89.3332 45.0001C89.3332 33.2421 84.6623 21.9658 76.3482 13.6517C68.0341 5.33757 56.7578 0.666748 44.9998 0.666748Z"
+                  fill="white"
+                ></path>
+                <path
+                  d="M51.0016 56.7506H62.4746L64.2759 45.0956H50.9992V38.7256C50.9992 33.8839 52.5812 29.5906 57.1102 29.5906H64.3879V19.4196C63.1092 19.2469 60.4049 18.8689 55.2949 18.8689C44.6246 18.8689 38.3689 24.5039 38.3689 37.3419V45.0956H27.3999V56.7506H38.3689V88.7849C40.5412 89.1116 42.7416 89.3332 45.0002 89.3332C47.0419 89.3332 49.0346 89.1466 51.0016 88.8806V56.7506Z"
+                  fill="#c61618"
+                ></path>
               </svg>
             </a>
-            <a
-              href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Una%20cinta%20de%20VHS%2C%20una%20IA%20y%20ocho%20segundos%20de%20audio.%20Eso%20es%20todo%20lo%20que%20necesit%C3%B3%20una%20mujer%20para%20recuperar%20su%20voz%20perdida%20&url=https%3A%2F%2Fwww.xataka.com%2Frobotica-e-ia%2Fcinta-vhs-ia-ocho-segundos-audio-eso-todo-que-necesito-mujer-para-recuperar-su-voz-perdida%3Futm_source%3Dflipboard%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb"
-            >
+          </li>
+          <li class="footer__social-network__item">
+            <a href="#" class="footer__social-network__link">
               <svg
-                fill="#D52626"
-                width="24px"
-                height="24px"
-                viewBox="0 0 32 32"
-                version="1.1"
+                class="instagram-icon"
+                width="88"
+                height="88"
+                viewBox="0 0 88 88"
+                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                stroke="#D52626"
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
+                <rect width="88" height="88" rx="44" fill="white"></rect>
+                <path
+                  d="M54.9998 20.1667H32.9998C25.8498 20.1667 20.1665 25.8501 20.1665 33.0001V55.0001C20.1665 62.1501 25.8498 67.8334 32.9998 67.8334H54.9998C62.1498 67.8334 67.8332 62.1501 67.8332 55.0001V33.0001C67.8332 25.8501 62.1498 20.1667 54.9998 20.1667Z"
+                  stroke="#c61618"
+                  stroke-width="4.16667"
+                  stroke-miterlimit="10"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <title>flipboard</title>
-                  <path
-                    d="M24.997 13.001h-5.998v5.998h-5.998v5.998h-5.998v-17.995h17.995zM1.004 1.004v29.991h29.991v-29.991z"
-                  ></path>
-                </g>
-              </svg>
-            </a>
-            <a
-              href="mailto:?subject=Una%20cinta%20de%20VHS%2C%20una%20IA%20y%20ocho%20segundos%20de%20audio.%20Eso%20es%20todo%20lo%20que%20necesit%C3%B3%20una%20mujer%20para%20recuperar%20su%20voz%20perdida%20&body=https://www.xataka.com/robotica-e-ia/cinta-vhs-ia-ocho-segundos-audio-eso-todo-que-necesito-mujer-para-recuperar-su-voz-perdida%3Futm_source%3Demailsharing%26utm_medium%3Demail%26utm_content%3DPOST%26utm_campaign%3Dbotoneraweb%26utm_term%3DCLICK%2BON%2BTITLE"
-            >
-              <svg
-                fill="#ffffff"
-                width="24px"
-                height="24px"
-                viewBox="-2.4 -2.4 28.80 28.80"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#ffffff"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0">
-                  <rect
-                    x="-2.4"
-                    y="-2.4"
-                    width="28.80"
-                    height="28.80"
-                    rx="1.7280000000000002"
-                    fill="#6C9650"
-                    strokewidth="0"
-                  ></rect>
-                </g>
-                <g
-                  id="SVGRepo_tracerCarrier"
+                ></path>
+                <path
+                  d="M56.8333 31.1667C57.8459 31.1667 58.6667 30.3459 58.6667 29.3333C58.6667 28.3208 57.8459 27.5 56.8333 27.5C55.8208 27.5 55 28.3208 55 29.3333C55 30.3459 55.8208 31.1667 56.8333 31.1667Z"
+                  fill="white"
+                ></path>
+                <path
+                  d="M44 55C50.0751 55 55 50.0751 55 44C55 37.9249 50.0751 33 44 33C37.9249 33 33 37.9249 33 44C33 50.0751 37.9249 55 44 55Z"
+                  stroke="#c61618"
+                  stroke-width="4.16667"
+                  stroke-miterlimit="10"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <path
-                    d="M22,5V9L12,13,2,9V5A1,1,0,0,1,3,4H21A1,1,0,0,1,22,5ZM2,11.154V19a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V11.154l-10,4Z"
-                  ></path>
-                </g>
+                ></path>
               </svg>
             </a>
-          </div>
-        </div>
-        <div class="section__img">
-          <img
-            class="img"
-            width="500"
-            height="333"
-            src="./img/img_01.jpeg"
-            alt="cinta vhs"
-          />
-        </div>
-        <div class="section__last-time">
-          <span>Hace 5 horas</span>
-          <hr />
-        </div>
-      </section>
-      <section class="section">
-        <article class="article">
-          <p class="article__paragraph">
-            En algún momento de los 90 a una joven Sarah Ezekiel la grabaron con
-            una cámara de vídeo y guardaron esa grabación
-            <a
-              href="https://www.xataka.com/historia-tecnologica/betamax-ha-muerto-pero-hay-todo-un-mundo-alrededor-del-video-vhs-que-se-resiste-a-hacerlo"
-            >
-              en una cinta VHS.
-            </a>
-            En aquella pequeña aparición Sarah solo hablaba ocho segundos, pero
-            casi tres décadas después esos ocho segundos han acabado siendo un
-            regalo increíble.
-          </p>
-          <p class="article__paragraph">
-            Uno que <strong>le ha devuelto la voz.</strong>
-          </p>
-          <p class="article__paragraph">
-            Sara Ezekiel perdió su voz en el año 2000, antes de que los
-            smartphones se convirtieran en algo masivo y nos permitieran, entre
-            otras muchas cosas, capturar vídeo con facilidad.
-          </p>
-          <hr />
-          <div class="article__other-publish">
-            <img
-              src="./img/img_02.jpeg"
-              alt=""
-            />
-            <div>
-              <span>EN XATAKA</span>
-              <a
-                href="https://www.xataka.com/especiales/18-meses-descifrando-los-ojos-de-dulce"
-                >18 meses descifrando los ojos de Dulce</a
+          </li>
+          <li class="footer__social-network__item">
+            <a href="#" class="footer__social-network__link">
+              <svg
+                class="twitter-icon"
+                width="88"
+                height="88"
+                viewBox="0 0 88 88"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-            </div>
-          </div>
-          <hr />
-          <p class="article__paragraph">
-            Una enfermedad de la motoneurona provocó que perdiera tanto esa
-            capacidad como la movilidad en sus manos justo cuando iba a tener su
-            segundo hijo, un niño al que llamó Eric. Como indicaba
-            <a href="https://www.bbc.com/news/articles/c1ejvxne7elo">
-              en una entrevista en BBC </a
-            >, "creí que estaría bien, pero después de que naciera Eric, me
-            deterioré rápidamente". En pocos meses perdió el control de sus
-            manos, y poco después fue incapaz de cualquier tipo de conversación
-            inteligible.
-          </p>
-          <p class="article__paragraph">
-            Su matrimonio acabó poco después, y Sarah, al cuidado de sus dos
-            niños, se encontró en una situación terrible. Eric, ahora de 25 años
-            de edad, solo recuerda a su madre estando paralizada. Aviva, su hija
-            mayor, de 28 años, recuerda cuando se dio cuenta de que su madre era
-            distinta. "Tengo ese recuerdo de pedirle que preparara unas fresas y
-            ver que no era capaz de cortarlas. Tuvo que pedírselo a alguien".
-          </p>
-          <p class="article__paragraph">
-            Cinco años después de la diagnosis, Sarah encontró
-            <a
-              href="https://www.xataka.com/medicina-y-salud/optikey-la-aplicacion-de-seguimiento-de-los-ojos-que-plantea-un-futuro-mejor-para-los-enfermos-de-ela"
-            >
-              un respiro
+                <rect width="88" height="88" rx="44" fill="white"></rect>
+                <path
+                  d="M20 20L38.4816 47L20.3914 68H24.3994L40.2517 49.5855L52.8567 68H68L48.6912 39.7936L65.7301 20H61.7344L46.9186 37.2007L35.1433 20H20ZM24.786 22.5263H33.8163L63.214 65.4737H54.1837L24.786 22.5263Z"
+                  fill="#c61618"
+                ></path>
+              </svg>
             </a>
-            gracias a la
-            <strong>tecnología de seguimiento ocular.</strong> Podía construir
-            palabras y frases con el movimiento de los ojos, para que luego un
-            sintetizador de voz ofreciera una voz sintética similar a la que por
-            ejemplo
-            <a
-              href="https://www.xataka.com/magnet/puedes-comprar-silla-famosa-historia-ciencia-stephen-hawking"
-            >
-              usaba Stephen Hawking.
+          </li>
+          <li class="footer__social-network__item">
+            <a href="#" class="footer__social-network__link">
+              <svg
+                class="youtube-icon"
+                width="88"
+                height="88"
+                viewBox="0 0 88 88"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="88" height="88" rx="44" fill="white"></rect>
+                <path
+                  d="M66.9227 55.88C66.4439 58.4 64.409 60.32 61.8953 60.68C57.9451 61.28 51.3616 62 43.9402 62C36.6384 62 30.0549 61.28 25.985 60.68C23.4713 60.32 21.4364 58.4 20.9576 55.88C20.4788 53.12 20 49.04 20 44C20 38.96 20.4788 34.88 20.9576 32.12C21.4364 29.6 23.4713 27.68 25.985 27.32C29.9352 26.72 36.5187 26 43.9402 26C51.3616 26 57.8254 26.72 61.8953 27.32C64.409 27.68 66.4439 29.6 66.9227 32.12C67.4015 34.88 68 38.96 68 44C67.8803 49.04 67.4015 53.12 66.9227 55.88Z"
+                  fill="#c61618"
+                ></path>
+                <path d="M39 52V36L54 44L39 52Z" fill="white"></path>
+              </svg>
             </a>
-          </p>
-          <p class="article__paragraph">
-            Aquello fue el principio de una nueva vida a la que se adaptó con
-            alegría. Se convirtió en voluntaria de la asociación para afectados
-            por su enfermedad, y volvió a pintar gracias a esa misma tecnología.
-            Y unos años después comenzó a gestarse un pequeño milatro.
-          </p>
-          <h1 class="title">La IA y el "milagro" de la clonación de la voz</h1>
-          <p class="article__paragraph">
-            Una empresa llamada Smartbox había anunciado que iba a proporcionar
-            voces clonadas gratuitas para un millón de personas en riesgo de
-            perder su voz o a los que ya la habían perdido por enfermedades como
-            el cáncer o la de la motoneurona.
-          </p>
-          <div class="article__video">
-            <iframe
-              src="https://geo.dailymotion.com/player.html?video=x817fac"
-              allowfullscreen
-              title="Dailymotion Video Player"
-              allow="web-share"
-            >
-            </iframe>
-          </div>
-          <p class="article__paragraph">
-            Le pidieron a Sarah una grabación de voz para poder reconstruirla,
-            pero lo único que tenía Sarah era una vieja cinta VHS en la que
-            habían grabado a su hija Aviva y en la que ella hablaba apenas ocho
-            segundos.
-          </p>
-          <p class="article__paragraph">
-            Aquella grabación era un desastre. La calidad de imagen era mala,
-            pero es que <strong>además el sonido estaba distorsionado</strong>,
-            con la gente mezclandose al hablar y una tele sonando de fondo a
-            todo volumen. Simon Poole, uno de los responsables de Smartbox,
-            pensó que no iba a ser posible.
-          </p>
-          <p class="article__paragraph">
-            Sin embargo Poole logró aislar la voz de Sarah gracias a la
-            aplicación Voice Isolator de ElevenLabs,
-            <a
-              href="https://www.xataka.com.mx/robotica-e-ia/estan-muertos-te-leeran-cuento-empresa-ia-ofrece-clones-voces-actores-fallecidos-hollywood"
-              >empresa especializada</a
-            >
-            en
-            <a
-              href="https://www.xataka.com/aplicaciones/he-probado-app-definitiva-para-convertir-libros-audiolibros-ia-gratuita-eleven-labs-espectacular"
-              >este tipo de soluciones</a
-            >
-            . El problema es que el resultado carecía de entonación y
-            personalidad, y además tenía un extraño acento americano. Para
-            tratar de resolverlo utilizó otra aplicación entrenada con miles de
-            voces para llenar huecos de este tipo de grabaciones y que podía
-            ayudar a recuperar una voz como la de Sarah.
-          </p>
-          <hr />
-          <div class="article__other-publish">
-            <img
-              src="./img/img_03.jpg"
-              alt=""
-            />
-            <div class="news-post-other-publish-descripcion">
-              <span>EN XATAKA</span>
-              <a
-                href="https://www.xataka.com/robotica-e-ia/salvar-tu-voz-antes-que-sea-demasiado-tarde-posible-gracias-a-ia-crucial-para-algunos-enfermos"
-                >Estamos más cerca de "salvar" nuestra voz mediante la IA. Y es
-                un paso de gigante para la medicina</a
+          </li>
+          <li class="footer__social-network__item">
+            <a href="#" class="footer__social-network__link">
+              <svg
+                class="linkedin-icon"
+                width="88"
+                height="88"
+                viewBox="0 0 88 88"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-            </div>
-          </div>
-          <hr />
-          <p class="article__paragraph">
-            Tras lograr un resultado que él creyó adecuado, le envió varias
-            frases a Sarah con su voz clonada. La llamó y oyó cómo Sarah, al oír
-            esas frases, casi rompió a llorar. Uno de los viejos amigos de
-            Sarah, que la conoció antes de perder la voz, se mostró
-            "impresionado por lo realista que sonaba".
-          </p>
-          <p class="article__paragraph">
-            Su hija Aviva dijo estar también impresionada aunque admitió que
-            tenía que acostumbrarse a ella. "Oírla ahora a diario me sigue
-            sorprendiendo". Para Eric "ha marcado una diferencia increíble",
-            porque esa voz puede además incluir una entonación que muestre que
-            su madre está alegre o enfadada.
-          </p>
-          <p class="article__paragraph">
-            Sarah echa de menos su voz auténtica, pero como decía ella, "estoy
-            contenta de estar de vuelta.
-            <strong>Es mejor que ser un robot</strong>".
-          </p>
-          <p class="article__paragraph">
-            Imagen |
-            <a
-              href="https://unsplash.com/es/fotos/persona-sosteniendo-una-cinta-vhs-negra-TovN2Tg5Bas"
-              >Gabriel Petry</a
-            >
-            |
-            <a
-              href="https://unsplash.com/es/fotos/una-persona-con-el-pelo-recogido-zd34nkm8nEk"
-              >Ursula Castillo</a
-            >
-          </p>
-          <p class="article__paragraph">
-            En Xataka |
-            <a
-              href="https://www.xataka.com/robotica-e-ia/ia-era-capaz-clonar-voces-caras-ahora-tambien-clona-nuestra-forma-escribir"
-              >La IA ya era capaz de clonar voces y caras. Ahora también clona
-              nuestra forma de escribir</a
-            >
-          </p>
-        </article>
-      </section>
-      <section class="section">
-        <h2 class="subtitle">Suscribite a nuestra Newsletter!!</h2>
-        <form class="form-subscribe">
-          <input
-            type="text"
-            name="txt-nombre"
-            id="txt-nombre"
-            class="form-subscribe__input"
-            placeholder="Nombre"
-          />
-          <input
-            type="text"
-            name="txt-apellido"
-            id="txt-apellido"
-            class="form-subscribe__input"
-            placeholder="Apellido"
-          />
-          <input
-            type="email"
-            name="txt-email"
-            id="txt-email"
-            class="form-subscribe__input"
-            placeholder="Email"
-          />
-          <div class="form-subscribe__check-item">
-            <input
-              type="checkbox"
-              id="check-terminos"
-              name="check-terminos"
-              required
-            />
-            <label for="check-terminos">
-              Acepto los
-              <a href="/terminos" target="_blank"
-                ><strong>Términos y Condiciones</strong></a
+                <rect width="88" height="88" rx="44" fill="white"></rect>
+                <path
+                  d="M65.1199 59.2532C65.1199 62.494 62.494 65.1199 59.2532 65.1199H28.7465C25.507 65.1199 22.8799 62.494 22.8799 59.2532V28.7465C22.8799 25.5058 25.507 22.8799 28.7465 22.8799H59.2532C62.494 22.8799 65.1199 25.5058 65.1199 28.7465V59.2532Z"
+                  fill="#c61618"
+                ></path>
+                <path
+                  d="M29.9199 38.1333H35.7866V58.0799H29.9199V38.1333ZM32.8357 35.7866H32.8028C31.0522 35.7866 29.9199 34.4818 29.9199 32.8521C29.9199 31.1871 31.0874 29.9199 32.8697 29.9199C34.6543 29.9199 35.7537 31.1871 35.7866 32.8521C35.7866 34.4807 34.6543 35.7866 32.8357 35.7866ZM58.0799 58.0799H52.2133V47.4038C52.2133 44.8248 50.7759 43.0648 48.468 43.0648C46.7068 43.0648 45.7541 44.2522 45.2918 45.3997C45.1228 45.8104 45.1733 46.9462 45.1733 47.5199V58.0799H39.3066V38.1333H45.1733V41.2027C46.0192 39.8933 47.3439 38.1333 50.7325 38.1333C54.9307 38.1333 58.0787 40.7733 58.0787 46.6681L58.0799 58.0799Z"
+                  fill="white"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-network__item">
+            <a href="#" class="footer__social-network__link">
+              <svg
+                class="tiktok-icon"
+                width="88"
+                height="88"
+                viewBox="0 0 88 88"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-            </label>
-          </div>
-          <div class="form-subscribe__check-item">
-            <input
-              type="checkbox"
-              id="check-promociones"
-              name="check-promociones"
-            />
-            <label for="check-promociones">
-              Deseo recibir novedades y promociones por correo electrónico
-            </label>
-          </div>
-          <button class="form-subscribe__submit " type="submit">Suscribirse</button>
-        </form>
-      </section>
-    </main>
+                <rect width="88" height="88" rx="44" fill="white"></rect>
+                <path
+                  d="M45.2096 20.04C48.2253 20 51.218 20.02 54.2107 20C54.3948 23.06 55.661 26.1799 58.2393 28.3399C60.8176 30.5599 64.4548 31.5799 68 31.9199V39.9797C64.685 39.8797 61.3471 39.2798 58.3314 38.0398C57.0192 37.5198 55.7991 36.8598 54.602 36.1798C54.579 42.0197 54.625 47.8596 54.556 53.6796C54.3718 56.4795 53.3129 59.2595 51.4482 61.5595C48.4325 65.3994 43.2068 67.8994 37.843 67.9794C34.5511 68.1394 31.2591 67.3594 28.4506 65.9194C23.8005 63.5395 20.5315 59.1795 20.0481 54.4996C20.0021 53.4996 19.9791 52.4996 20.0251 51.5196C20.4395 47.7197 22.6034 44.0797 25.9644 41.5997C29.7858 38.7198 35.1266 37.3398 40.1221 38.1598C40.1681 41.1197 40.03 44.0797 40.03 47.0397C37.7509 46.3997 35.0806 46.5797 33.0778 47.7797C31.6275 48.5996 30.5225 49.8596 29.947 51.2796C29.4635 52.2996 29.6017 53.4196 29.6247 54.4996C30.1772 57.7795 33.8144 60.5395 37.6819 60.2395C40.2602 60.2195 42.7234 58.9195 44.0586 57.0195C44.496 56.3595 44.9794 55.6796 45.0024 54.8996C45.2326 51.3196 45.1406 47.7597 45.1636 44.1797C45.1866 36.1198 45.1406 28.0799 45.2096 20.04Z"
+                  fill="#c61618"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-network__item">
+            <a href="#" class="footer__social-network__link">
+              <svg
+                class="telegram-icon"
+                width="88"
+                height="88"
+                viewBox="0 0 88 88"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="88" height="88" rx="44" fill="white"></rect>
+                <path
+                  d="M63.8632 27.7316L56.6196 62.5251C56.0727 64.9803 54.6479 65.5915 52.6232 64.4355L41.5854 56.1514L36.2603 61.3691C35.6705 61.9698 35.1784 62.471 34.0417 62.471L34.8355 51.0228L55.2909 32.1967C56.1807 31.39 55.0971 30.9412 53.909 31.7497L28.6206 47.9686L17.7337 44.4971C15.3661 43.7445 15.3232 42.0856 18.2275 40.9278L60.8097 24.2182C62.7814 23.4656 64.5061 24.6635 63.8632 27.7316Z"
+                  fill="#c61618"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-network__item">
+            <a href="#" class="footer__social-network__link">
+              <svg
+                class="google-news-icon"
+                width="88"
+                height="88"
+                viewBox="0 0 88 88"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="88" height="88" rx="44" fill="white"></rect>
+                <path
+                  d="M62.5335 62.751C62.5329 63.0821 62.4035 63.3993 62.1738 63.6334C61.9441 63.8675 61.6328 63.9993 61.3079 64H26.689C26.3642 63.9994 26.0528 63.8676 25.8231 63.6335C25.5934 63.3994 25.464 63.0821 25.4634 62.751V36.0824C25.4641 35.7514 25.5934 35.4341 25.8231 35.2C26.0528 34.966 26.3642 34.8341 26.689 34.8334H61.3077C61.6326 34.8341 61.9439 34.966 62.1736 35.2C62.4033 35.4341 62.5327 35.7514 62.5333 36.0824L62.5335 62.751ZM56.4705 55.7814V53.3443C56.4705 53.3228 56.4663 53.3016 56.4582 53.2817C56.4502 53.2619 56.4383 53.2438 56.4234 53.2286C56.4085 53.2134 56.3908 53.2014 56.3713 53.1931C56.3518 53.1849 56.3309 53.1807 56.3099 53.1807H45.5647V55.9564H56.3099C56.3313 55.9561 56.3525 55.9514 56.3722 55.9428C56.3919 55.9341 56.4097 55.9215 56.4246 55.9058C56.4396 55.8901 56.4513 55.8715 56.4592 55.8512C56.4671 55.8309 56.471 55.8091 56.4707 55.7873L56.4705 55.7814ZM58.1047 50.5076V48.0594C58.105 48.0379 58.1013 48.0165 58.0935 47.9965C58.0858 47.9765 58.0742 47.9582 58.0596 47.9428C58.0449 47.9273 58.0274 47.9149 58.008 47.9064C57.9886 47.8978 57.9678 47.8932 57.9467 47.8929H45.5645V50.6687H57.9439C57.9646 50.669 57.9852 50.6652 58.0046 50.6575C58.0239 50.6498 58.0415 50.6382 58.0564 50.6235C58.0714 50.6088 58.0833 50.5913 58.0916 50.5719C58.0999 50.5525 58.1043 50.5316 58.1047 50.5105V50.5021V50.5076ZM56.4705 45.2339V42.7747C56.4705 42.7532 56.4663 42.7319 56.4582 42.7121C56.4502 42.6922 56.4383 42.6742 56.4234 42.659C56.4085 42.6438 56.3908 42.6317 56.3713 42.6235C56.3518 42.6153 56.3309 42.611 56.3099 42.611H45.5647V45.3868H56.3099C56.3518 45.3861 56.3919 45.369 56.4218 45.339C56.4517 45.3091 56.4691 45.2685 56.4705 45.2258V45.2339ZM36.2984 48.1676V50.6658H39.8392C39.5478 52.1924 38.2294 53.2999 36.2984 53.2999C34.1171 53.2174 32.4147 51.3486 32.4957 49.1258C32.5725 47.0187 34.2309 45.3289 36.2984 45.2506C37.2302 45.2346 38.1306 45.5937 38.8042 46.2499L40.6726 44.3485C39.4897 43.215 37.922 42.5922 36.2984 42.611C32.6881 42.611 29.7615 45.5935 29.7615 49.2725C29.7615 52.9516 32.6881 55.934 36.2984 55.934C40.0762 55.934 42.563 53.2278 42.563 49.4168C42.5611 48.9946 42.5264 48.5733 42.4594 48.1566L36.2984 48.1676ZM24.54 35.1416C24.5415 34.8108 24.6711 34.494 24.9006 34.2601C25.1301 34.0262 25.441 33.8941 25.7656 33.8926H50.075L47.5365 26.7787C47.4391 26.4755 47.2284 26.2236 46.95 26.0776C46.6716 25.9316 46.348 25.9033 46.0493 25.9987L20.7349 35.3886C20.4439 35.5109 20.2124 35.746 20.0913 36.0421C19.9703 36.3383 19.9695 36.6713 20.0893 36.968L24.54 49.4252V35.1416ZM24.54 35.1416C24.5415 34.8108 24.6711 34.494 24.9006 34.2601C25.1301 34.0262 25.441 33.8941 25.7656 33.8926H50.075L47.5365 26.7787C47.4391 26.4755 47.2284 26.2236 46.95 26.0776C46.6716 25.9316 46.348 25.9033 46.0493 25.9987L20.7349 35.3886C20.4439 35.5109 20.2124 35.746 20.0913 36.0421C19.9703 36.3383 19.9695 36.6713 20.0893 36.968L24.54 49.4252V35.1416ZM67.1638 34.5088L49.5576 29.6818L51.061 33.8924H62.2283C62.5532 33.8931 62.8645 34.0249 63.0942 34.259C63.3239 34.4931 63.4533 34.8104 63.454 35.1414V53.0665L67.9482 36.0156C68.04 35.7098 68.0089 35.3793 67.8619 35.0968C67.7148 34.8143 67.4637 34.6028 67.1638 34.5088ZM58.1727 31.0973V25.238C58.1712 24.9087 58.0417 24.5934 57.8124 24.3613C57.5831 24.1292 57.2728 23.9993 56.9497 24.0001H31.0471C30.8868 23.9986 30.7279 24.0293 30.5793 24.0904C30.4307 24.1515 30.2954 24.2419 30.181 24.3563C30.0667 24.4707 29.9756 24.607 29.9129 24.7573C29.8503 24.9076 29.8173 25.069 29.8159 25.2323V31.0141L46.5969 24.7939C46.8971 24.6992 47.2218 24.7295 47.5001 24.8783C47.7783 25.0271 47.9873 25.2822 48.0813 25.5878L49.1707 28.6409L58.1727 31.0973Z"
+                  fill="#c61618"
+                ></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copyright">
+        <span>© Canal 26 2025 Todos los derechos reservados</span>
+      </div>
+    </footer>
   </body>
 </html>
